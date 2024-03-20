@@ -1,0 +1,42 @@
+
+
+PROPERTY TAX ADD PAY
+ADMIN TO ADD AREAS 
+AND IN DROP IT SHOULD LIST
+CHK SIGNOUT
+-----------------------------------------------------------
+create database ewaste;
+use ewaste;
+create table propertytax( propertyid varchar(100),city  varchar(100),Area varchar(100),Ward varchar(100),Fortheyear varchar(100),Dimension varchar(100),Totaltax varchar(100));>admin
+create table area( Area varchar(100),ward varchar (100));
+create table receipt2( propertyid varchar(100),dateofpayment varchar(systemdate));
+create table receipt2( propertyid varchar(100),dateofpayment varchar(100));
+index>paypropertytax>gridview  propertytax>last paybtn(pic)>paypropertytax1.jsp(id parmeter pass)(cardno,dateexpairy,cvv)>save recceipt
+create table admin( u varchar(100),p varchar(100));
+insert into admin values  ('admin','admin');
+
+create table staffreg (stffid varchar(100), fullname varchar(100), 
+address varchar(100), gender varchar(100),dob varchar(100),
+email varchar(100),pwd varchar(100),area varchar(100));
+
+
+create table complaint (id varchar(100), fullname varchar(100), 
+mobile varchar(100), location varchar(100),datetime varchar(100),complaint varchar(100));
+
+create table receipt (rid varchar(100), rdate varchar(100), 
+frm varchar(100), amount varchar(100),paymode varchar(100));
+
+create table clients (cid varchar(100), cname varchar(100), 
+mobile varchar(100),email varchar(100),bussinesstype varchar(100),ADDR VARCHAR(100));
+
+Malleswaram
+13.005314,77.572419
+
+Banshankari
+12.926006,77.549225
+
+Kormangala
+12.935717,77.625942
+
+Nagarabhavi
+12.978519,77.514006
